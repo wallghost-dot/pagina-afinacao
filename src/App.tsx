@@ -90,7 +90,7 @@ function App() {
             <div className="w-24 h-1 bg-white mx-auto mb-8 rounded-full"></div>
             <a 
               href="#oferta" 
-              className="inline-flex items-center justify-center bg-white text-pink-600 font-bold py-3 px-8 rounded-lg shadow-lg hover:bg-pink-50 transform hover:scale-105 transition-all duration-300"
+              className="bg-green-600 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-green-700 transition"
             >
               QUERO CONHECER O MÉTODO
               <ArrowDown className="ml-2 h-5 w-5" />
