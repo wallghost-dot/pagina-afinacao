@@ -112,10 +112,14 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="py-20 bg-gray-50 text-gray-800">
+      <section className="py-20 bg-gradient-to-b from-pink-100 via-white to-pink-50 text-gray-800">
   <div className="container mx-auto px-4">
     <div className="max-w-3xl mx-auto text-center">
-      <h2 className="text-4xl md:text-5xl font-extrabold text-pink-600 mb-6">
+    <section
+  className="py-20 bg-cover bg-center bg-no-repeat text-gray-100"
+  style={{ backgroundImage: "url('/natali-hordiuk-lQHTjxX4OKU-unsplash.jpg')" }}
+>
+
         Protocolo da Afinação Feminina™
       </h2>
       <p className="text-lg md:text-xl leading-relaxed mb-8">
