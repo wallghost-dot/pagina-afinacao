@@ -121,7 +121,6 @@ function App() {
 >
 
         Protocolo da Afinação Feminina™
-      </h2>
       <p className="text-lg md:text-xl leading-relaxed mb-8">
         Toda mulher tem um <span className="text-pink-600 font-semibold">código secreto</span> que faz o corpo responder mais rápido à mudança… <br />
         Basta saber como <span className="text-pink-600 font-semibold">ativá-lo</span>.
