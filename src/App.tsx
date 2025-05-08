@@ -74,37 +74,22 @@ function App() {
   return (
     <div className="relative overflow-hidden">
       {/* HERO SECTION */}
-      <section className="bg-gradient-to-br from-pink-600 to-red-500 text-white py-16 relative">
-        <div className="absolute inset-0 bg-[url('https://resultadosquetransformam.com/wp-content/uploads/2025/04/como-se-sentir-bonita-em-10-passos-vem-conferir-4.jpg')] opacity-10 bg-cover bg-center"></div>
-        <div className="container mx-auto px-4 relative z-10">
-          <div className="max-w-3xl mx-auto text-center">
-            <span className="inline-block py-1 px-3 rounded-full bg-white/20 text-white text-sm font-medium mb-4 animate-pulse">
-              Método Exclusivo Para Mulheres
-            </span>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              O Segredo dos 17 Dia
-            </h1>
-            <h2 className="text-xl md:text-2xl mb-8 leading-relaxed">
-              Um Ritual Oculto Para Redescobrir Sua Leveza e Se Sentir Linda Novamente – Sem Dietas Radicais, Sem Academia.
-            </h2>
-            <div className="w-24 h-1 bg-white mx-auto mb-8 rounded-full"></div>
-            <a 
-              href="#oferta" 
-              className="bg-green-600 text-white font-bold py-3 px-6 rounded-lg shadow-md hover:bg-green-700 transition"
-            >
-              QUERO CONHECER O MÉTODO
-              <ArrowDown className="ml-2 h-5 w-5" />
-            </a>
-          </div>
-        </div>
-        <div className="custom-shape-divider-bottom">
-          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" className="fill-white"></path>
-          </svg>
-        </div>
-      </section>
+      <section className="text-center py-20 bg-gradient-to-b from-pink-500 to-pink-300 text-white">
+  <div className="max-w-2xl mx-auto px-4">
+    <p className="uppercase tracking-widest text-sm mb-2">Método Exclusivo Para Mulheres</p>
+    <h1 className="text-4xl md:text-5xl font-bold mb-4">O Segredo dos 17 Dias</h1>
+    <p className="text-lg md:text-xl mb-6">
+      Um Ritual Oculto Para Redescobrir Sua Leveza e Se Sentir Linda Novamente – Sem Dietas Radicais, Sem Academia.
+    </p>
+    <a
+      href="#metodo"
+      className="inline-block bg-green-600 hover:bg-green-700 text-white font-semibold px-6 py-3 rounded-lg transition-all"
+    >
+      QUERO CONHECER O MÉTODO
+    </a>
+  </div>
+</section>
 
-      {/* PAIN POINTS SECTION */}
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
@@ -127,49 +112,35 @@ function App() {
           </div>
         </div>
       </section>
-      {/* MECANISMO ÚNICO */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-4xl mx-auto">
-            <div className="text-center mb-12">
-              <span className="bg-pink-100 text-pink-600 rounded-full px-4 py-1 text-sm font-semibold">MECANISMO ÚNICO</span>
-              <h2 className="text-3xl font-bold mt-4 mb-6 text-gray-800">Protocolo da Afinação Feminina</h2>
-              <p className="text-xl italic text-gray-600 mb-8">
-                "Toda mulher carrega um código natural que pode ser reativado... basta entender como estimular esse processo silencioso."
-              </p>
-            </div>
+      <section className="py-20 bg-gray-50 text-gray-800">
+  <div className="container mx-auto px-4">
+    <div className="max-w-3xl mx-auto text-center">
+      <h2 className="text-4xl md:text-5xl font-extrabold text-pink-600 mb-6">
+        Protocolo da Afinação Feminina™
+      </h2>
+      <p className="text-lg md:text-xl leading-relaxed mb-8">
+        Toda mulher tem um <span className="text-pink-600 font-semibold">código secreto</span> que faz o corpo responder mais rápido à mudança… <br />
+        Basta saber como <span className="text-pink-600 font-semibold">ativá-lo</span>.
+      </p>
+      <p className="text-lg md:text-xl text-gray-600 mb-6">
+        Nos primeiros <strong>5 dias</strong>, seu corpo já começa a mudar sem você perceber. <br />
+        Em <strong>9 dias</strong>, as pessoas começam a notar. <br />
+        E em <strong>17 dias</strong>… você se reencontra com a mulher incrível que sempre foi.
+      </p>
+    </div>
 
-            <div className="grid md:grid-cols-3 gap-8 text-center">
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <div className="w-12 h-12 bg-pink-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-pink-600 font-bold">5</span>
-                </div>
-                <h3 className="font-bold text-lg mb-2 text-gray-800">Primeiros 5 dias</h3>
-                <p className="text-gray-600">Seu corpo já começa a responder com leveza, sem que você precise forçar nada.</p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <div className="w-12 h-12 bg-pink-200 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-pink-600 font-bold">9</span>
-                </div>
-                <h3 className="font-bold text-lg mb-2 text-gray-800">Em 9 dias</h3>
-                <p className="text-gray-600">As pessoas ao redor começam a notar que algo diferente está acontecendo com você.</p>
-              </div>
-              <div className="bg-white p-6 rounded-lg shadow-md">
-                <div className="w-12 h-12 bg-pink-300 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="text-pink-600 font-bold">17</span>
-                </div>
-                <h3 className="font-bold text-lg mb-2 text-gray-800">Em 17 dias</h3>
-                <p className="text-gray-600">Você sente uma reconexão com a mulher poderosa que sempre existiu aí dentro.</p>
-              </div>
-            </div>
+    <div className="mt-12 max-w-3xl mx-auto grid gap-6">
+      <div className="bg-white rounded-xl shadow-md p-6 border-l-4 border-pink-500">
+        <h3 className="text-xl font-bold text-pink-600 mb-2">🔑 A Sequência Dourada™</h3>
+        <p className="text-gray-700">
+          Um ritual simples, baseado no comportamento feminino natural, que destrava a capacidade do seu corpo de
+          eliminar inchaços, reduzir medidas e redefinir suas curvas — <strong>sem precisar mudar sua rotina.</strong>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
 
-            <div className="mt-12 p-6 bg-white rounded-lg shadow-md">
-              <p className="text-gray-700 leading-relaxed">
-                O método usa a <span className="font-bold text-pink-600">Sequência Dourada</span> — um ritual baseado no ritmo natural feminino, que ativa um processo silencioso de realinhamento, permitindo que sua imagem no espelho volte a fazer sentido.
-              </p>
-            </div>
-          </div>
-        </div>
       </section>
 
       {/* BENEFÍCIOS */}
