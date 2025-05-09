@@ -116,7 +116,7 @@ function App() {
       <section
   className="bg-cover bg-center bg-no-repeat text-white"
   style={{
-    backgroundImage: "url('/natali-hordiuk-lQHTjxX4OKU-unsplash.jpg')",
+    backgroundImage: "url('natali-hordiuk-lQHTjxX4OKU-unsplash.jpg')",
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',
