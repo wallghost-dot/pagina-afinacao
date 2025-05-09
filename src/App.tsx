@@ -116,11 +116,9 @@ function App() {
       <section
   className="bg-cover bg-center bg-no-repeat text-white"
   style={{
-    backgroundImage: "url('natali-hordiuk-lQHTjxX4OKU-unsplash.jpg')",
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-    backgroundRepeat: 'no-repeat',
+    backgroundImage: "url('https://images.unsplash.com/photo-1614850523336-2fd6b2db30f1?auto=format&fit=crop&w=1600&q=80')"
   }}
+  
 >
   <div className="bg-black/60 py-20 px-4">
     <div className="container mx-auto max-w-3xl text-center">
