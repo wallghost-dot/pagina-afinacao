@@ -116,7 +116,7 @@ function App() {
       <section
   className="bg-cover bg-center bg-no-repeat text-white"
   style={{
-    backgroundImage: "url('https://images.unsplash.com/photo-1614850523336-2fd6b2db30f1?auto=format&fit=crop&w=1600&q=80')"
+    backgroundImage: "url('https://i.postimg.cc/504y7rq9/natali-hordiiuk-IQHTjx-X4-OKU-unsplash.jpg')"
   }}
   
 >
