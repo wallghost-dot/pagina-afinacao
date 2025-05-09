@@ -112,9 +112,7 @@ function App() {
           </div>
         </div>
       </section>
-      <section className="py-20 bg-gradient-to-b from-pink-100 via-white to-pink-50 text-gray-800">
-  <div className="container mx-auto px-4">
-    <div className="max-w-3xl mx-auto text-center">
+
     <section
   className="py-20 bg-cover bg-center bg-no-repeat text-gray-100"
   style={{ backgroundImage: "url('/natali-hordiuk-lQHTjxX4OKU-unsplash.jpg')" }}
