@@ -114,30 +114,37 @@ function App() {
       </section>
 
       <section
-  className="bg-cover bg-center bg-no-repeat text-white"
+  className="relative py-20 bg-cover bg-center bg-no-repeat text-gray-100"
   style={{
     backgroundImage: "url('https://i.postimg.cc/504y7rq9/natali-hordiiuk-IQHTjx-X4-OKU-unsplash.jpg')"
   }}
-  
 >
-  <div className="bg-black/60 py-20 px-4">
-    <div className="container mx-auto max-w-3xl text-center">
+  <div className="absolute inset-0 bg-black/60 backdrop-blur-sm z-0"></div>
+
+  <div className="relative z-10 container mx-auto px-4">
+    <div className="max-w-3xl mx-auto text-center">
       <h2 className="text-4xl md:text-5xl font-extrabold text-pink-500 mb-6">
         Protocolo da Afinação Feminina™
       </h2>
-      <p className="text-lg md:text-xl leading-relaxed mb-6 text-white">
-        Toda mulher tem um <span className="text-pink-400 font-semibold">código secreto</span> que faz o corpo
+      <p className="text-lg md:text-xl leading-relaxed mb-6">
+        Toda mulher tem um{" "}
+        <span className="text-pink-400 font-semibold">código secreto</span> que faz o corpo
         responder mais rápido à mudança… <br />
-        Basta saber como <span className="text-pink-400 font-semibold">ativá-lo</span>.
+        Basta saber como{" "}
+        <span className="text-pink-400 font-semibold">ativá-lo</span>.
       </p>
-      <p className="text-lg md:text-xl text-gray-200 mb-6">
-        Nos primeiros <strong className="text-white">5 dias</strong>, seu corpo já começa a mudar sem você perceber. <br />
+      <p className="text-lg md:text-xl text-gray-300 mb-6">
+        Nos primeiros{" "}
+        <strong className="text-white">5 dias</strong>, seu corpo já começa a mudar sem
+        você perceber. <br />
         Em <strong className="text-white">9 dias</strong>, as pessoas começam a notar. <br />
-        E em <strong className="text-white">17 dias</strong>… você se reencontra com a mulher incrível que sempre foi.
+        E em <strong className="text-white">17 dias</strong>… você se reencontra com a mulher
+        incrível que sempre foi.
       </p>
     </div>
   </div>
 </section>
+
 
 
       {/* BENEFÍCIOS */}
