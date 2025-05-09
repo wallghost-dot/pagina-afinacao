@@ -120,15 +120,13 @@ function App() {
   }}
 >
   <div className="bg-black/60 py-20 px-4">
-
     <div className="container mx-auto max-w-3xl text-center">
-      <h2 className="text-4xl md:text-5xl font-extrabold text-pink-600 mb-6">
+      <h2 className="text-4xl md:text-5xl font-extrabold text-pink-500 drop-shadow mb-6">
         Protocolo da Afinação Feminina™
       </h2>
-      <p className="text-lg md:text-xl leading-relaxed mb-6">
-        Toda mulher tem um <span className="text-pink-600 font-semibold">código secreto</span> que faz o corpo
-        responder mais rápido à mudança… <br />
-        Basta saber como <span className="text-pink-600 font-semibold">ativá-lo</span>.
+      <p className="text-lg md:text-xl leading-relaxed text-white mb-6">
+        Toda mulher tem um <span className="text-pink-400 font-semibold">código secreto</span> que faz o corpo responder mais rápido à mudança…<br />
+        Basta saber como <span className="text-pink-400 font-semibold">ativá-lo</span>.
       </p>
       <p className="text-lg md:text-xl text-gray-300 mb-6">
         Nos primeiros <strong className="text-white">5 dias</strong>, seu corpo já começa a mudar sem você perceber. <br />
